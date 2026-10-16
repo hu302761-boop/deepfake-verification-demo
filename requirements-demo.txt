@@ -1,0 +1,8 @@
+# 求职展示 Demo 的已验证运行依赖。
+# Gradio 3.50.2 需要仍包含 HfFolder 的 huggingface_hub 0.x；
+# 升级到 1.x 会导致 "cannot import name 'HfFolder'" 错误。
+gradio==3.50.2
+huggingface_hub==0.25.2
+
+# 研究文档生成：build_research_docs.py 使用 python-docx 生成可审阅的 DOCX。
+python-docx==1.2.0
